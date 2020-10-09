@@ -8,4 +8,3 @@ const loopTeam = (names) => {
 }
 
 console.log(loopTeam["Boli", "Cory", "Evalyn", "Jayden"]);
-
