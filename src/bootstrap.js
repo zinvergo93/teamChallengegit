@@ -1,3 +1,5 @@
+import mathWizz from './fantasticObject'
+
 const loopTeam = (names) => {
     for (i in names) {
         const name = (names.indexOf[0])
@@ -6,3 +8,4 @@ const loopTeam = (names) => {
 }
 
 console.log(loopTeam["Boli", "Cory", "Evalyn", "Jayden"]);
+
