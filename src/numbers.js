@@ -1,18 +1,12 @@
-let nums = [1,2,3,4]
-let sum = 0
-
-for (var i = 0; i < nums.length; i++) { 
-  sum += parseInt(nums[i]);
+export const exponentFunction = (numOne, NumTwo) => {
+  return Math.pow(numOne, numTwo);
 }
-console.log(sum)
 
-let nums = [1,2,3,4]
-let i = 0
-let x = 0
+exponentFunction(12, 34);
 
-do { 
-  x += nums[i];
-  i++;
-} 
-while (i < nums.length)
-alert(x)
+export function addNums(...nums) {
+  let sum = nums.reduce((numOne, numTwo) => numOne + numTwo);
+  return sum
+}
+
+addNums(14, 56, 32, 27);
